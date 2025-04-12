@@ -1,2 +1,6 @@
 # Algorithms-Visualized
-Visualization of graph traversal and pathfinding algorithms.
+Python implementation of graph traversal and pathfinding algotirthms, and their visualization via PyGame.
+
+### Algorithms in project
+- DFS
+- BFS
