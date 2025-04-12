@@ -4,3 +4,5 @@ Python implementation of graph traversal and pathfinding algotirthms, and their 
 ### Algorithms in project
 - DFS
 - BFS
+
+Project still being updated.
