@@ -2,8 +2,7 @@
 Python implementation of graph traversal and pathfinding algotirthms, and their visualization via PyGame.
 
 ## Overview
-  This project visualizes pathfinding algorithms on an ***n*** × ***m*** grid, represented as a 2D array (rows and columns), with the task of finding a path from the top left cell in the grid `(0, 0)`, to the bottom left cell `(n, m)`. The grid includes randomly generated walls that the algorithms cannot traverse. Movement is limited to the four cardinal directions: up, down, left, and right. To facilitate traversal, the grid is converted into an adjacency list representing a graph, which will be used by the algorithms.
-
+  This project visualizes pathfinding algorithms on an n × m grid, aiming to find a path from the top-left cell (0, 0) to the bottom-right cell (n, m). The grid includes random walls that block movement, and traversal is allowed only in four directions: up, down, left, and right. The grid is converted to an adjacency list to represent them as a graph, which will be used by the algorithms.
 Visualization is handled using PyGame, with each cell rendered as an adjacent rectangle on the screen.
 
   
