@@ -7,6 +7,7 @@ WINDOW_WIDTH = 1200
 WINDOW_HEIGHT = 800
 GRID_ROWS = 20
 GRID_COLS = 20
+VIS_SPEED = 100
 grid_node_width = grid_node_height = 40  # cell dimensions 
 
 # grid = generate_grid(GRID_ROWS, GRID_COLS)
@@ -79,7 +80,7 @@ def main():
     SCREEN.blit(FONT.render("DFS", False, WHITE), (textplace, 50))
     s = pygame.time.get_ticks()
     while True:
-        CLOCK.tick(50)
+        CLOCK.tick(VIS_SPEED)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
