@@ -1,11 +1,11 @@
-import random
+from random import sample, randint
 from collections import defaultdict
 
 def generate_grid(rows: int, cols: int):
     grid = [[0] * cols for _ in range(rows)]
 
     for row in range(rows):
-        walls_indexes = random.sample(range(0, cols), random.randint(1, cols//2))
+        walls_indexes = sample(range(0, cols), randint(1, cols//2))
         for wall_index in walls_indexes:
             grid[row][wall_index] = 1
     
