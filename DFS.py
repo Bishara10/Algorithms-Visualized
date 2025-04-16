@@ -1,7 +1,7 @@
 import sys
 import pygame
-from components import *
-from functions import *
+from utils.components import *
+from utils.functions import *
 
 WINDOW_WIDTH = 1200
 WINDOW_HEIGHT = 800

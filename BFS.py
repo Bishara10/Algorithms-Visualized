@@ -1,8 +1,8 @@
 import sys
 import pygame
 from collections import deque
-from components import *
-from functions import *
+from utils.components import *
+from utils.functions import *
 
 WINDOW_WIDTH = 1300
 WINDOW_HEIGHT = 800
